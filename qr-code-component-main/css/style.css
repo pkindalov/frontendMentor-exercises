@@ -26,14 +26,13 @@ body {
 }
 
 .qr-card {
-    width: 25rem;
+    width: 27rem;
     display: flex;
     flex-direction: column;
     border-radius: 2rem;
     border: 1px solid #d6e2f0;
     background-color: white;
     margin: 10rem auto;
-    font-size: 1.6rem;
 }
 
 .qr-card__header-img-cont {
@@ -41,22 +40,24 @@ body {
 }
 
 .qr-card__img-header {
-    height: 25rem;
+    height: 27rem;
     padding: 1.5rem;
     border-radius: 2rem;
 }
 
 .qr-card__header {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    font-weight: 700;
     color: #1f3251;
     line-height: 2.3rem;
-    padding: 0 1rem 1rem 1rem;
+    padding: 0 1.1rem 1rem 1.1rem;
 }
 
 .qr-card__description {
     color: #7b879d;
-    font-size: 1.3rem;
-    padding: 0.2rem 1.5rem 3.5rem 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 0.2rem 1rem 3.5rem 1rem;
 }
 
 .qr-container {
