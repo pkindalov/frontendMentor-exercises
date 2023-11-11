@@ -5,10 +5,17 @@ $color-blue-grayish: hsl(220, 15%, 55%);
 $color-blue-dark: hsl(218, 44%, 22%);
 
 
-//Card
+//CARD
 $base-width: 25rem;
 $base-height: 30rem;
 $base-border-radius: 2rem;
 $base-font-size: 1.6rem;
 $header-medium: 1.8rem;
 $description-small: 1.3rem;
+
+//CARD HEADER IMAGE
+$base-image-height: 25rem;
+$base-image-padding: 1.5rem;
+
+//CARD HEADER TEXT
+$base-header-line-height: 2.3rem;

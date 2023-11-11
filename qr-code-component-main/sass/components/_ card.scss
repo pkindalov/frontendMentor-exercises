@@ -13,15 +13,15 @@
   }
 
   &__img-header {
-    height: 25rem;
-    padding: 1.5rem;
+    height: $base-image-height;
+    padding: $base-image-padding;
     border-radius: $base-border-radius;
   }
 
   &__header {
     font-size: $header-medium;
     color: $color-blue-dark;
-    line-height: 2.3rem;
+    line-height: $base-header-line-height;
     padding: 0 1rem 1rem 1rem;
   }
 
