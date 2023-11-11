@@ -1,0 +1,33 @@
+.qr-card {
+  width: $base-width;
+  display: flex;
+  flex-direction: column;
+  border-radius: $base-border-radius;
+  border: 1px solid $color-gray-light;
+  background-color: $color-white;
+  margin: 10rem auto;
+  font-size: $base-font-size;
+
+  &__header-img-cont {
+    width: 100%;
+  }
+
+  &__img-header {
+    height: 25rem;
+    padding: 1.5rem;
+    border-radius: $base-border-radius;
+  }
+
+  &__header {
+    font-size: $header-medium;
+    color: $color-blue-dark;
+    line-height: 2.3rem;
+    padding: 0 1rem 1rem 1rem;
+  }
+
+  &__description {
+    color: $color-blue-grayish;
+    font-size: $description-small;
+    padding: 0.2rem 1.5rem 3.5rem 1.5rem;
+  }
+}

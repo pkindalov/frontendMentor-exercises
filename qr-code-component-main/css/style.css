@@ -12,6 +12,7 @@ html {
 
 body {
     box-sizing: border-box;
+    background-color: #d6e2f0;
 }
 
 body {
@@ -22,4 +23,43 @@ body {
 
 .u-center-text {
     text-align: center;
+}
+
+.qr-card {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    border: 1px solid #d6e2f0;
+    background-color: white;
+    margin: 10rem auto;
+    font-size: 1.6rem;
+}
+
+.qr-card__header-img-cont {
+    width: 100%;
+}
+
+.qr-card__img-header {
+    height: 25rem;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+
+.qr-card__header {
+    font-size: 1.8rem;
+    color: #1f3251;
+    line-height: 2.3rem;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.qr-card__description {
+    color: #7b879d;
+    font-size: 1.3rem;
+    padding: 0.2rem 1.5rem 3.5rem 1.5rem;
+}
+
+.qr-container {
+    text-align: center;
+    margin-top: 5rem;
 }
